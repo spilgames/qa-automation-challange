@@ -3,6 +3,7 @@
 ## Requirements
 This is a payment API. It has one method buyCoins where you can calculate the required amount in EUR what you need to pay to buy SpilCoins.   
 It supports three payment provider: PAYPAL, CREDITCARD, IDEAL.   
+
 1. You can only pay with PAYPAL over 20 EUR but there are no other fee.
 2. You can pay with IDEAL any amount but it costs 1 EUR, if you pay more than 25 EUR there is no fee.
 3. You can pay with CREDITCARD but the fee is 2%, if you pay more than 25 EUR the fee is 1% and over 50 EUR there is no fee.
