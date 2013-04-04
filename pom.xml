@@ -10,7 +10,6 @@
     <jersey-version>1.8</jersey-version>
   </properties>
   <build>
-    <finalName>tester</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
