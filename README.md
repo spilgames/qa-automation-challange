@@ -1,4 +1,4 @@
-# Spil QA automation challange application
+# Spil QA automation challenge application
 
 ## Requirements
 This is a payment API. It has one method buyCoins where you can calculate the required amount in EUR what you need to pay to buy SpilCoins.   
