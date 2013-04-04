@@ -1,8 +1,7 @@
 package com.spilgames.qa.tester;
 
-import org.javatuples.Pair;
-
 import com.sun.jersey.api.view.Viewable;
+import org.javatuples.Pair;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -18,7 +17,10 @@ import java.util.Map;
 @Path("/")
 public class Payment {
 
-  private static final List<Pair<Integer, Double>> amountBorders = new ArrayList<Pair<Integer, Double>>(){{
+  private static final List<Pair<Integer, Double>> amountBorders = new ArrayList<Pair<Integer, Double>>(){
+    private static final long serialVersionUID = -7430551132715613867L;
+
+  {
     add(new Pair<Integer, Double>(5, 0.5));
     add(new Pair<Integer, Double>(5, 0.4));
     add(new Pair<Integer, Double>(10, 0.3));
