@@ -26,7 +26,7 @@ public class Payment {
     add(new Pair<Integer, Double>(10, 0.3));
     add(new Pair<Integer, Double>(20, 0.2));
     add(new Pair<Integer, Double>(20, 0.15));
-    add(new Pair<Integer, Double>(999, 0.1));
+    add(new Pair<Integer, Double>(99999, 0.1));
   }};
 
   @Path("/buyCoins")
