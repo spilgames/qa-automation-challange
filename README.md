@@ -8,7 +8,7 @@ It supports three payment provider: PAYPAL, CREDITCARD, IDEAL.
 2. You can pay with IDEAL any amount but it costs 1 EUR, if you pay more than 25 EUR there is no fee.
 3. You can pay with CREDITCARD but the fee is 2%, if you pay more than 25 EUR the fee is 1% and over 50 EUR there is no fee.
 
-The price of the SpilCoin is based on the amount you buy. Till 5 it is 0.5 each, over this till 10 it costs 0.4 each, over this till 20 it costs 0.3 each, over this till 40 it costs 0.3 each, over this till 60 it costs 0.15 each, over this it costs 0.1 each.
+The price of the SpilCoin is based on the amount you buy. Till 5 it is 0.5 each, over this till 10 it costs 0.4 each, over this till 20 it costs 0.3 each, over this till 40 it costs 0.2 each, over this till 60 it costs 0.15 each, over this it costs 0.1 each.
 
 ## To start the application:
 1. run: mvn clean install jetty:run
