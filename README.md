@@ -22,5 +22,5 @@ The price of the SpilCoin is based on the amount you buy. Till 5 it is 0.5 each,
 * http://localhost:8080/service/coins/?&amount=120
 
 ## Response format
-{"payment": {"amount":<CALCULATED AMOUNT>}}   
-{"payment": {"error":"<ERROR MESSAGE>"}}
+{"payment": {"amount":[CALCULATED AMOUNT]}}   
+{"payment": {"error":"[ERROR MESSAGE]"}}
