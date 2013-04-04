@@ -19,6 +19,7 @@ The price of the SpilCoin is based on the amount you buy. Till 5 it is 0.5 each,
 * http://localhost:8080/service/buyCoins/?method=CREDITCARD&amount=120
 * http://localhost:8080/service/buyCoins/?method=PAYPAL&amount=46
 * http://localhost:8080/service/coins/?&amount=120
+
 ## Response format
 {"payment": {"amount":<CALCULATED AMOUNT>}}   
 {"payment": {"error":"<ERROR MESSAGE>"}}
