@@ -75,12 +75,14 @@ public class Payment {
   private double calculatePayment(PaymentMethod method, double amount) throws InvalidInputException {
     switch (method) {
       case CREDITCARD:
-        if (amount < 100) {
+        if (amount < 25) {
           return amount * 1.02;
+        } else if(amount < 50){
+          return amount * 1.01;
         }
         break;
       case IDEAL:
-        if (amount < 50) {
+        if (amount < 25) {
           return (double) (amount + 1);
         }
         break;
